@@ -1,5 +1,5 @@
 export default {
-    base: '/blog/',
+    base: '/',
     srcDir: 'src',
     publicDir: 'public',
     // https://docs.npmjs.com/using-npm/developers.html#keeping-files-out-of-your-package
