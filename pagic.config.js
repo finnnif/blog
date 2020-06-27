@@ -18,7 +18,7 @@ export default {
         /\/npm-debug\.log$/,
         /\/node_modules\//
     ],
-    theme: 'docs',
+    theme: 'default',
     plugins: ['init', 'md', 'tsx', 'script', 'layout', 'write'],
     watch: false,
     serve: false,
