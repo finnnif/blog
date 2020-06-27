@@ -17,7 +17,9 @@ jobs:
           export DENO_INSTALL="/home/runner/.deno"
           export PATH="$DENO_INSTALL/bin:$PATH"
           deno --version
-          deno run --unstable --allow-read --allow-write --allow-net mod.ts build
+          deno --version
+          deno install --unstable --allow-read --allow-write --allow-net -n pagic https://deno.land/x/pagic@0.7.6/mod.ts
+          pagic build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
